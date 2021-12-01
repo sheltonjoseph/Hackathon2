@@ -1,0 +1,78 @@
+
+
+body{
+  background-color: whitesmoke;
+}
+.pizza-picture{
+  height: 440px;
+  width: 650px;
+  object-fit: cover;
+}
+
+.pizza-container{
+  background-color:white;
+  width:650px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin:30px;
+}
+
+.pizza-name{
+  padding: 16px;
+  font-size:48px;
+  font-family: 'Norican', cursive;
+  
+}
+
+.pizza-list-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:40px;
+  margin:30px;
+  
+
+}
+
+
+
+.home-img{
+  height:100vh;
+  width: 100%;
+}
+
+.signup{
+  background-color:white;
+  width:650px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin:30px;
+}
+
+.login{
+  background-color:white;
+  width:650px;
+  border-radius: 20px;
+  overflow: show;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin:30px;
+}
+
+.home-page{
+  display:flex;
+  justify-content:center;
+
+}
+.App{
+  text-align:center;
+
+}
+.Bg-container{
+  height:100vh;
+  width:100%;
+  background-size: cover ;
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
